@@ -6,7 +6,7 @@
 ```bash
 cd php-starter
 composer install
-touch .env
+cp .env.example .env
 ```
 จากนั้นเปลี่ยน document root มาที่ directory `public/`
 
@@ -22,7 +22,7 @@ touch .env
     * [platesphp.com](https://platesphp.com/)
     * folder `resources/views/`
 
-## Create `.env` file  
+## `.env` file  
 ```dotenv
 DB_HOST=localhost
 DB_NAME=your-database-name
