@@ -13,7 +13,9 @@ class HelloController extends Controller
 
     public function params()
     {
-        return $this->request;
+        echo "<pre>";
+        var_dump($this->request);
+        echo "</pre>";
     }
 
     public function go() {
